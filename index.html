@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tuesday | Sign in</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="week" id="week">
+
+  <section class="day" tabindex="0" aria-label="Monday" style="--c:#cfd8ff;--i:0">
+    <span class="name">Monday</span>
+    <p class="note">Pick one thing that matters.</p>
+  </section>
+
+  <section class="day on" id="tuesday" aria-label="Tuesday sign in" style="--c:#2a2cff;--t:#fff;--i:1">
+    <span class="name" aria-hidden="true">Tuesday</span>
+    <div class="body">
+      <h1>Tuesday</h1>
+      <p class="sub">Sign in and pick up where you left off.</p>
+      <form id="form" novalidate>
+        <label>Email
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>Password
+          <input type="password" name="password" autocomplete="current-password" minlength="6" required>
+        </label>
+        <p class="msg" id="msg" role="status" aria-live="polite"></p>
+        <button type="submit">Sign in</button>
+      </form>
+      <p class="alt">New here? <a href="#">Create an account</a></p>
+    </div>
+  </section>
+
+  <section class="day" tabindex="0" aria-label="Wednesday" style="--c:#ffd23f;--i:2">
+    <span class="name">Wednesday</span>
+    <p class="note">Halfway. Keep going.</p>
+  </section>
+
+  <section class="day" tabindex="0" aria-label="Thursday" style="--c:#ff7ab6;--i:3">
+    <span class="name">Thursday</span>
+    <p class="note">Finish what you started.</p>
+  </section>
+
+  <section class="day" tabindex="0" aria-label="Friday" style="--c:#36d9a3;--i:4">
+    <span class="name">Friday</span>
+    <p class="note">Ship it, then close the laptop.</p>
+  </section>
+
+  <section class="day" tabindex="0" aria-label="Saturday" style="--c:#ff9d3c;--i:5">
+    <span class="name">Saturday</span>
+    <p class="note">Go outside.</p>
+  </section>
+
+  <section class="day" tabindex="0" aria-label="Sunday" style="--c:#e6defa;--i:6">
+    <span class="name">Sunday</span>
+    <p class="note">Rest. Tuesday is coming.</p>
+  </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
